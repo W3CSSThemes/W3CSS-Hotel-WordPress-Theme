@@ -21,7 +21,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 </div>
 <!-- Header -->
 <header class="w3-display-container w3-content" style="max-width:1500px;">
-  <img class="w3-image" src="images/hotel.jpg" alt="The Hotel" style="min-width:1000px" width="1500" height="800">
+  <img class="w3-image" src="<?php echo get_template_directory_uri(); ?>/images/hotel.jpg" alt="The Hotel" style="min-width:1000px" width="1500" height="800">
   <div class="w3-display-left w3-padding w3-col l6 m8">
     <div class="w3-container w3-red">
       <h2><i class="fa fa-bed w3-margin-right"></i>Hotel Name</h2>
@@ -87,7 +87,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
   <div class="w3-row-padding w3-padding-16">
     <div class="w3-third w3-margin-bottom">
-      <img src="images/room_single.jpg" alt="Norway" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/room_single.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <h3>Single Room</h3>
         <h6 class="w3-opacity">From $99</h6>
@@ -98,7 +98,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       </div>
     </div>
     <div class="w3-third w3-margin-bottom">
-      <img src="images/room_double.jpg" alt="Norway" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/room_double.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <h3>Double Room</h3>
         <h6 class="w3-opacity">From $149</h6>
@@ -109,7 +109,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       </div>
     </div>
     <div class="w3-third w3-margin-bottom">
-      <img src="images/room_deluxe.jpg" alt="Norway" style="width:100%">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/room_deluxe.jpg" alt="Norway" style="width:100%">
       <div class="w3-container w3-white">
         <h3>Deluxe Room</h3>
         <h6 class="w3-opacity">From $199</h6>
@@ -150,7 +150,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-row-padding w3-padding-16 w3-text-white w3-large">
     <div class="w3-half w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="images/cinqueterre.jpg" alt="Cinque Terre" style="width:100%">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/cinqueterre.jpg" alt="Cinque Terre" style="width:100%">
         <span class="w3-display-bottomleft w3-padding">Cinque Terre</span>
       </div>
     </div>
@@ -158,13 +158,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <div class="w3-row-padding" style="margin:0 -16px">
         <div class="w3-half w3-margin-bottom">
           <div class="w3-display-container">
-            <img src="images/newyork2.jpg" alt="New York" style="width:100%">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/newyork2.jpg" alt="New York" style="width:100%">
             <span class="w3-display-bottomleft w3-padding">New York</span>
           </div>
         </div>
         <div class="w3-half w3-margin-bottom">
           <div class="w3-display-container">
-            <img src="images/sanfran.jpg" alt="San Francisco" style="width:100%">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/sanfran.jpg" alt="San Francisco" style="width:100%">
             <span class="w3-display-bottomleft w3-padding">San Francisco</span>
           </div>
         </div>
@@ -172,13 +172,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <div class="w3-row-padding" style="margin:0 -16px">
         <div class="w3-half w3-margin-bottom">
           <div class="w3-display-container">
-            <img src="images/pisa.jpg" alt="Pisa" style="width:100%">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/pisa.jpg" alt="Pisa" style="width:100%">
             <span class="w3-display-bottomleft w3-padding">Pisa</span>
           </div>
         </div>
         <div class="w3-half w3-margin-bottom">
           <div class="w3-display-container">
-            <img src="images/paris.jpg" alt="Paris" style="width:100%">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/paris.jpg" alt="Paris" style="width:100%">
             <span class="w3-display-bottomleft w3-padding">Paris</span>
           </div>
         </div>
@@ -243,7 +243,7 @@ function myMap()
   marker.setMap(map);
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
